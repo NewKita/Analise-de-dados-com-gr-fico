@@ -1,6 +1,6 @@
 import pandas as pd
 
-tabela = pd.read_csv(r"C:\Downloads\telecom_users.csv")
+tabela = pd.read_csv(r"Local do arquivo")
 
 tabela = tabela.drop("Unnamed: 0", axis=1)
 display(tabela)
